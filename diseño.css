@@ -95,20 +95,16 @@
     display: flex;
     width: 100vw;
     height: 95vh;
+    background: linear-gradient(to right, rgb(192, 203, 208), rgb(192, 201, 206));
 }
 
 .izqd{
     width: 100vw;
     height: 95vh;
     color: rgb(84, 136, 84);
-    background: linear-gradient(to right, #0ee9ef, #edbf65);
+    background: linear-gradient(to right, white, rgb(192, 203, 209));
 }
 
-.derec{
-    width: 100vw;
-    height: 95vh;
-    
-}
 #frase{
     display: flex;
     color: black;
@@ -117,15 +113,54 @@
     font-weight: 100;
     margin-left: 35px;
     margin-top: 25px;
-   
 
 }
 
 #img{
     display: flex;
-    width: ;
-    height: ;
+    width: 50vw;
+    height: 50vh;
 }
+
+.derec{
+    width: 100vw;
+    height: 95vh;
+    
+}
+
+#signin{
+
+}
+
+#frase2{
+
+}
+
+#nomb{
+
+}
+
+#apell{
+
+}
+
+#mail{
+
+}
+
+#pswdmj{
+
+}
+
+#sex{
+
+}
+
+#birth{
+
+}
+
+
 /*.fatherrmfg{
     display: grid;
     grid-template-columns: 22vw 20vw 5vw;
