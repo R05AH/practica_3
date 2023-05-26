@@ -22,21 +22,31 @@
     background-color: rgb(128, 128, 222);
     color: white;
     margin-top: 10px;
+    margin-left: 40px;
 }
 
 .fatherrmfg{
     margin-top: 3px;
     display: grid;
-    grid-template-columns: 20vw 20vw 10vw;
-    grid-template-rows: 5vh 5vh;
+    grid-template-columns: 15vw 15vw 15vw;
+    grid-template-rows: 3vh 3vh;
 }
 #rememberme{
+    display: flex;
+    justify-content: end;
+    font-size: 12px;
     text-align: center;
     color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #forgot{
+    display: flex;
+    justify-content: end;
+    font-size: 12px;
+    text-decoration: underline;
     text-align: center;
     color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /*.fatherrmfg{
