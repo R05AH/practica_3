@@ -24,16 +24,22 @@
     color: white;
 }
 
+.fatherrmfg{
+    
+}
 #rememberme{
+    display: grid;
     background-color: rgb(128, 128, 222);
     width: 60vw;
     height: 10vh;
-    align-items: end;
+    justify-content: end;
+    grid-row: 2/3;
 }
 
 #forgot{
+    display: grid;
     background-color: rgb(128, 128, 222);
     width: 60vw;
     height: 10vh;
-    align-content: end;
+    grid-template-columns: 2/3;
 }
