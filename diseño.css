@@ -66,6 +66,47 @@
     font-size:12px;
     margin-bottom: 10px;
 }
+
+#user{
+    color: white;
+}
+
+#user input{
+    width: 85%;
+    height: 4vh;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-left: 35px;
+}
+
+#password{
+    color: white;
+}
+
+#password input{
+    width: 85%;
+    height: 4vh;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-left: 35px;
+}
+
+.contenido{
+    display: flex;
+    width: 100vw;
+    height: 95vh;
+}
+
+.izqd{
+    width: 100vw;
+    height: 95vh;
+    color: rgb(84, 136, 84);
+}
+
+.derec{
+    width: 100vw;
+    height: 95vh;
+}
 /*.fatherrmfg{
     display: grid;
     grid-template-columns: 22vw 20vw 5vw;
