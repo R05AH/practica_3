@@ -34,12 +34,13 @@
 }
 #rememberme{
     display: flex;
-    font-size: 12px;
+    font-size: 13px;
     text-align: center;
     color: white;
-    justify-content: center;
+    justify-content: end;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 #forgot{
     display: flex;
     justify-content: center;
