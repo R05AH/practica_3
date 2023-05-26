@@ -107,6 +107,15 @@
     width: 100vw;
     height: 95vh;
 }
+#frase{
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+    margin-left: 35px;
+    margin-top: 25px;
+
+}
 /*.fatherrmfg{
     display: grid;
     grid-template-columns: 22vw 20vw 5vw;
