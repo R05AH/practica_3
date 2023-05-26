@@ -8,7 +8,7 @@
     display: flex;
     flex-direction: row;
     width: 300vw;
-    background-color: rgb(128, 128, 222);
+    background-color: rgb(82, 82, 221);
 }
 
 .facebook{
@@ -19,7 +19,7 @@
     font-weight: 900;
     font-size: 50px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: rgb(128, 128, 222);
+    background-color: rgb(82, 82, 221);
     color: white;
     margin-top: 10px;
     margin-left: 40px;
@@ -30,18 +30,19 @@
     display: grid;
     grid-template-columns: 15vw 15vw 15vw;
     grid-template-rows: 3vh 3vh;
+    
 }
 #rememberme{
     display: flex;
-    justify-content: end;
     font-size: 12px;
     text-align: center;
     color: white;
+    justify-content: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #forgot{
     display: flex;
-    justify-content: end;
+    justify-content: center;
     font-size: 12px;
     text-decoration: underline;
     text-align: center;
@@ -49,6 +50,22 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+#logg{
+    display: flex;
+    color: white;
+    margin-right: 5px;
+}
+
+#logg input{
+    background-color: rgb(57, 57, 166);
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 40px;
+    height:20px;
+    text-align:center;
+    font-size:12px;
+    margin-bottom: 10px;
+}
 /*.fatherrmfg{
     display: grid;
     grid-template-columns: 22vw 20vw 5vw;
