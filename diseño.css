@@ -101,20 +101,30 @@
     width: 100vw;
     height: 95vh;
     color: rgb(84, 136, 84);
+    background: linear-gradient(to right, #0ee9ef, #edbf65);
 }
 
 .derec{
     width: 100vw;
     height: 95vh;
+    
 }
 #frase{
+    display: flex;
     color: black;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 30px;
     font-weight: 100;
     margin-left: 35px;
     margin-top: 25px;
+   
 
+}
+
+#img{
+    display: flex;
+    width: ;
+    height: ;
 }
 /*.fatherrmfg{
     display: grid;
