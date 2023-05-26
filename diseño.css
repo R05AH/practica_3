@@ -40,6 +40,11 @@
     justify-content: end;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+#rememberme input[type="text"]{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 #forgot{
     display: flex;
@@ -58,6 +63,7 @@
 }
 
 #logg input{
+    display: flex;
     background-color: rgb(57, 57, 166);
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -66,6 +72,7 @@
     text-align:center;
     font-size:12px;
     margin-bottom: 10px;
+    margin-top:  50px;
 }
 
 #user{
