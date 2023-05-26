@@ -17,24 +17,23 @@
     flex-direction: row;
     width: 60vw;
     height: 10vh;
-    font-weight: 500;
+    font-weight: 900;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: rgb(128, 128, 222);
-}
-
-.cuadroEmail{
-    display: grid;
-    grid-template-columns: 15vw 15vw 15vw;
-    grid-template-rows: 10vh 10vh;
-    background-color: rgb(128, 128, 222);
-    
+    color: white;
 }
 
 #rememberme{
     background-color: rgb(128, 128, 222);
     width: 60vw;
     height: 10vh;
+    align-items: end;
 }
 
 #forgot{
     background-color: rgb(128, 128, 222);
+    width: 60vw;
+    height: 10vh;
+    align-content: end;
 }
