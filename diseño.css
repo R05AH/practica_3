@@ -7,8 +7,7 @@
 .barra{
     display: flex;
     flex-direction: row;
-    width: 100dvw;
-    height: 10vh;
+    width: 300vw;
     background-color: rgb(128, 128, 222);
 }
 
@@ -22,24 +21,43 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: rgb(128, 128, 222);
     color: white;
+    margin-top: 10px;
 }
 
 .fatherrmfg{
+    margin-top: 3px;
+    display: grid;
+    grid-template-columns: 20vw 20vw 10vw;
+    grid-template-rows: 5vh 5vh;
+}
+#rememberme{
+    text-align: center;
+    color: white;
+}
+#forgot{
+    text-align: center;
+    color: white;
+}
+
+/*.fatherrmfg{
+    display: grid;
+    grid-template-columns: 22vw 20vw 5vw;
+    grid-template-rows: 5vh 5vh;
+    margin-top: 3px;
     
 }
 #rememberme{
     display: grid;
     background-color: rgb(128, 128, 222);
-    width: 60vw;
-    height: 10vh;
-    justify-content: end;
-    grid-row: 2/3;
+    text-align: center;
+    align-self: initial;
+    
 }
 
 #forgot{
     display: grid;
     background-color: rgb(128, 128, 222);
-    width: 60vw;
-    height: 10vh;
-    grid-template-columns: 2/3;
-}
+    text-align: center;
+    align-self: last baseline;
+    
+}*/
