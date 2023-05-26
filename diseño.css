@@ -220,6 +220,8 @@
     color: rgb(81, 79, 77);
     justify-content: center;
     text-align: center;
+    font-size: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #signbtn{
@@ -230,39 +232,26 @@
 }
 
 #signbtn input{
-    width:110px;
+    width:80px;
     height:35px;
     text-align:center;
     font-size:15px;
     margin-bottom: 10px;
-    font-family: 'Arial';
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
-    background-color:green;
+    background-color:rgb(20, 160, 20);
     border: 3px solid;
     color: #fff;
     position: relative;
     border-color: rgb(45, 59, 43);
+    margin-top: 10px;
 }
 
-/*.fatherrmfg{
-    display: grid;
-    grid-template-columns: 22vw 20vw 5vw;
-    grid-template-rows: 5vh 5vh;
-    margin-top: 3px;
-    
+#a{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    font-size: 18px;
+    font-weight: bold;
+    height: 5vh;
 }
-#rememberme{
-    display: grid;
-    background-color: rgb(128, 128, 222);
-    text-align: center;
-    align-self: initial;
-    
-}
-
-#forgot{
-    display: grid;
-    background-color: rgb(128, 128, 222);
-    text-align: center;
-    align-self: last baseline;
-    
-}*/
